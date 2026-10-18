@@ -32,7 +32,7 @@
 | [AGENTS.md](../../AGENTS.md) | [AGENTS.md](AGENTS.md) | 日常工作規則與安全程式碼清理政策 |
 | [REQUIREMENTS.md](../../REQUIREMENTS.md) | [REQUIREMENTS.md](REQUIREMENTS.md) | 重大需求歧義出現時的釐清程序 |
 | [AGENTS-MAINTENANCE.md](../../AGENTS-MAINTENANCE.md) | [AGENTS-MAINTENANCE.md](AGENTS-MAINTENANCE.md) | 長期專案約定改變時的規範維護指南 |
-| [prompts/SAFE_CODEBASE_AUDIT_EN.md](../../prompts/SAFE_CODEBASE_AUDIT_EN.md) | [稽核提示詞](prompts/SAFE_CODEBASE_AUDIT_ZH_TW.md) | 按需啟用的六階段深度稽核 |
+| [prompts/SAFE_CODEBASE_AUDIT.md](../../prompts/SAFE_CODEBASE_AUDIT.md) | [稽核提示詞](prompts/SAFE_CODEBASE_AUDIT.md) | 按需啟用的六階段深度稽核 |
 
 `REQUIREMENTS.md` 目前是需求釐清指南，不是已完成的產品需求規格。請把確認過的產品需求與驗收條件寫在專案規格中，再從代理規範引用。
 
@@ -41,7 +41,7 @@
 保留本儲存庫結構時，將以下內容交給代理：
 
 ```text
-請閱讀 i18n/zh-TW/prompts/SAFE_CODEBASE_AUDIT_ZH_TW.md，依照其中的六個階段對目前專案進行深度稽核。這次先完成唯讀分析及清理計畫，不要修改或刪除任何檔案，等我審核並明確批准後再執行。
+請閱讀 i18n/zh-TW/prompts/SAFE_CODEBASE_AUDIT.md，依照其中的六個階段對目前專案進行深度稽核。這次先完成唯讀分析及清理計畫，不要修改或刪除任何檔案，等我審核並明確批准後再執行。
 ```
 
 六階段涵蓋理解專案、深度稽核、證據與風險分類、先提案後執行、精準驗證、成果報告。唯讀任務只完成分析、計畫與報告；取得批准後才實作與驗證變更。請針對具體批次確認範圍、驗證方法及回復方式。無法證明安全的候選項目應保留；真正的 Bug 應修復根因，不得弱化測試來掩蓋。
@@ -55,7 +55,7 @@
 完成上述複製後，稽核指令可改為：
 
 ```text
-請閱讀 prompts/SAFE_CODEBASE_AUDIT_ZH_TW.md，依照其中的六個階段對目前專案進行深度稽核。這次先完成唯讀分析及清理計畫，不要修改或刪除任何檔案，等我審核並明確批准後再執行。
+請閱讀 prompts/SAFE_CODEBASE_AUDIT.md，依照其中的六個階段對目前專案進行深度稽核。這次先完成唯讀分析及清理計畫，不要修改或刪除任何檔案，等我審核並明確批准後再執行。
 ```
 
 不搬動檔案時也可直接使用上方 `i18n/zh-TW/prompts/` 路徑；稽核對象仍是目前專案根目錄。
