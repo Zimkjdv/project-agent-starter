@@ -30,9 +30,12 @@ Resolve decisions that would change the goal, architecture, risk, or acceptance 
 
 ## Suggested Question Format
 
-**Decision:** [What needs a choice]  
-**Why now:** [Why it affects implementation]  
-**Options:** [Only the significant alternatives]  
+**Decision:** [What needs a choice]
+
+**Why now:** [Why it affects implementation]
+
+**Options:** [Only the significant alternatives]
+
 **Recommendation:** [Preferred option, brief reasoning, and cost/tradeoff]
 
 > If the user explicitly requests a full Grill Me-style interview, explore more deeply while respecting dependencies, discovery costs, and their wish to stop.
